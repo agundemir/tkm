@@ -12,7 +12,7 @@
         var video = document.getElementById('video');
         if (Hls.isSupported()) {
             var hls = new Hls();
-            hls.loadSource('https://hls.ibb.gov.tr/tkm2/hls/402.stream/chunklist.m3u8');
+            hls.loadSource('https://hls.ibb.gov.tr/tkm4/hls/92.stream/chunklist.m3u8');
             hls.attachMedia(video);
             hls.on(Hls.Events.MANIFEST_PARSED, function() {
                 video.play();
